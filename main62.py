@@ -9,10 +9,6 @@ from datetime import datetime
 
 #  -----
 
-# Class: Frutas
-#  Objects: Abacate, Banana...
-
-
 #  Criar a classe (CONSTRUCTOR)
 
 
@@ -32,25 +28,14 @@ class Funcionarios:
         return self.ano_nascimento
   
 #  criar o objeto
-usuario1 = Funcionarios('Elena', 'Cabral', '2009')
-usuario2 = Funcionarios('Diego', 'Varzim', '2005')
-usuario3 = Funcionarios('Júlia', 'Lemos', '2003')
+usuario1 = Funcionarios('Elena', 'Cabral', 2009)
+usuario2 = Funcionarios('Diego', 'Varzim', 2005)
+usuario3 = Funcionarios('Júlia', 'Lemos', 2003)
 
 
-print(Funcionarios.idade_funcionario(usuario1))
+print(Funcionarios.idade_funcionario(usuario3))
 
 
-
-
-# #  criar os parâmetros do usuario1
-# usuario1.nome = 'Elena'
-# usuario1.sobrenome = 'Cabral'
-# usuario1.data_nascimento = '12/01/2009'
-
-# #  criar os parâmetros do usuario2
-# usuario2.nome = 'Diego'
-# usuario2.sobrenome = 'Varzim'
-# usuario2.data_nascimento = '15/01/2009'
 
 
 
